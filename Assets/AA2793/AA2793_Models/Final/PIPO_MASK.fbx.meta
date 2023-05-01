@@ -1,0 +1,1369 @@
+fileFormatVersion: 2
+guid: 3f56319443b9bfb49a7afb9f758b89f5
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_pure
+    second: {fileID: 2100000, guid: 590302eed873dba4f8c2a798f475842e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipo_glasses
+    second: {fileID: 2100000, guid: 590302eed873dba4f8c2a798f475842e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipo_glasses_glass
+    second: {fileID: 2100000, guid: 590302eed873dba4f8c2a798f475842e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipo_hair
+    second: {fileID: 2100000, guid: c82eb86f7803c3c439fa9b9503540bfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipo_pants_01
+    second: {fileID: 2100000, guid: 64c5e2f57104368419b51ef527eaf65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipo_shoes_01
+    second: {fileID: 2100000, guid: 590302eed873dba4f8c2a798f475842e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipo_skin_01
+    second: {fileID: 2100000, guid: b2f679869ec0f9941a8d256a8a100bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipo_skin_02
+    second: {fileID: 2100000, guid: b2f679869ec0f9941a8d256a8a100bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipo_sweater
+    second: {fileID: 2100000, guid: 36b2bbf502faaca4eb714f62ce7f3a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_pure
+    second: {fileID: 2100000, guid: fddf0d4fe7262a64aa3932ccfb2b015b, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'pipo_Walk' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'rig_pipo_hips.001' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'pipo_Standing.002'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_leg_bottom_L'
+      has scale animation that will be discarded.\n\nClip 'pipo_JumpingJack' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L'
+      has scale animation that will be discarded.\n\nClip 'rig_pipo|EmptyAction'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_leg_bottom_L'
+      has scale animation that will be discarded.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|EmptyAction.001' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|EmptyAction.003' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|EmptyAction.004' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|Kicki FrontAction' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L'
+      has scale animation that will be discarded.\n\nClip 'rig_pipo|pipo_Blinking'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L'
+      has scale animation that will be discarded.\n\nClip 'rig_pipo|pipo_HandWaving'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_leg_bottom_L'
+      has scale animation that will be discarded.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|pipo_Idle.002' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|pipo_JumpingJack.001' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L'
+      has scale animation that will be discarded.\n\nClip 'rig_pipo|pipo_Kick' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_leg_bottom_L'
+      has scale animation that will be discarded.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|pipo_Kicking' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|pipo_Kicking.001' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|pipo_Standing' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|pipo_Standing.001' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L'
+      has scale animation that will be discarded.\n\nClip 'rig_pipo|pipo_Standing.002'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L'
+      has scale animation that will be discarded.\n\nClip 'rig_pipo|pipo_Walk' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_hips.001'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'rig_pipo_leg_bottom_L'
+      has scale animation that will be discarded.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|PoseLib' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|prop_box_woodAction' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'rig_pipo_leg_bottom_L'
+      has scale animation that will be discarded.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n\nClip 'rig_pipo|rig_pipoAction' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rig_pipo_foot_L' has scale
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pipo_Walk
+      takeName: pipo_Walk
+      internalID: -4971273288604638213
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000000000000000000001000000010000000000000000000000010000000000000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_pipo
+        weight: 0
+      - path: rig_pipo
+        weight: 1
+      - path: rig_pipo/rig_pipo_root
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L/rig_pipo_arm_bottom_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L/rig_pipo_arm_bottom_L/rig_pipo_hand_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L/rig_pipo_arm_bottom_L/rig_pipo_hand_L/rig_pipo_fingers_L
+        weight: 0
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L/rig_pipo_arm_bottom_L/rig_pipo_hand_L/rig_pipo_thum_L
+        weight: 0
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R/rig_pipo_arm_bottom_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R/rig_pipo_arm_bottom_R/rig_pipo_hand_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R/rig_pipo_arm_bottom_R/rig_pipo_hand_R/rig_pipo_fingers_R
+        weight: 0
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R/rig_pipo_arm_bottom_R/rig_pipo_hand_R/rig_pipo_thum_R
+        weight: 0
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_neck
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_neck/rig_pipo_head
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_L/rig_pipo_leg_bottom_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_L/rig_pipo_leg_bottom_L/rig_pipo_foot_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_R/rig_pipo_leg_bottom_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_R/rig_pipo_leg_bottom_R/rig_pipo_foot_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pipo_Standing.002
+      takeName: pipo_Standing.002
+      internalID: 4307122745934045532
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pipo_HandWaving
+      takeName: pipo_HandWaving
+      internalID: -7448830264249017876
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_pipo
+        weight: 0
+      - path: rig_pipo
+        weight: 1
+      - path: rig_pipo/rig_pipo_root
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L/rig_pipo_arm_bottom_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L/rig_pipo_arm_bottom_L/rig_pipo_hand_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L/rig_pipo_arm_bottom_L/rig_pipo_hand_L/rig_pipo_fingers_L
+        weight: 0
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_L/rig_pipo_arm_bottom_L/rig_pipo_hand_L/rig_pipo_thum_L
+        weight: 0
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R/rig_pipo_arm_bottom_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R/rig_pipo_arm_bottom_R/rig_pipo_hand_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R/rig_pipo_arm_bottom_R/rig_pipo_hand_R/rig_pipo_fingers_R
+        weight: 0
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_arm_top_R/rig_pipo_arm_bottom_R/rig_pipo_hand_R/rig_pipo_thum_R
+        weight: 0
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_neck
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_belly_bottom/rig_pipo_belly_top/rig_pipo_chest/rig_pipo_neck/rig_pipo_head
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_L/rig_pipo_leg_bottom_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_L/rig_pipo_leg_bottom_L/rig_pipo_foot_L
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_R/rig_pipo_leg_bottom_R
+        weight: 1
+      - path: rig_pipo/rig_pipo_root/rig_pipo_hips_upper_body/rig_pipo_hips.001/rig_pipo_leg_top_R/rig_pipo_leg_bottom_R/rig_pipo_foot_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pipo_Kick
+      takeName: pipo_Kick
+      internalID: 919609536355342949
+      firstFrame: 0
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pipo_Idle
+      takeName: pipo_Idle
+      internalID: 1382690579223943885
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pipo_Blinking
+      takeName: pipo_Blinking
+      internalID: 3880858443455220752
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pipo_JumpingJack
+      takeName: pipo_JumpingJack
+      internalID: 3134483270984126682
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|EmptyAction
+      takeName: rig_pipo|EmptyAction
+      internalID: 6461344691879963898
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|EmptyAction.001
+      takeName: rig_pipo|EmptyAction.001
+      internalID: 3128244793471103853
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|EmptyAction.003
+      takeName: rig_pipo|EmptyAction.003
+      internalID: 4092287288834899329
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|EmptyAction.004
+      takeName: rig_pipo|EmptyAction.004
+      internalID: -5870057244220389630
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|Kicki FrontAction
+      takeName: rig_pipo|Kicki FrontAction
+      internalID: 4774574085982634790
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Blinking
+      takeName: rig_pipo|pipo_Blinking
+      internalID: -5875766171644478718
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_HandWaving
+      takeName: rig_pipo|pipo_HandWaving
+      internalID: 6133488193504634048
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Idle.002
+      takeName: rig_pipo|pipo_Idle.002
+      internalID: -8698349322948799251
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_JumpingJack.001
+      takeName: rig_pipo|pipo_JumpingJack.001
+      internalID: -8258269717124376874
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Kick
+      takeName: rig_pipo|pipo_Kick
+      internalID: 5703235750369291831
+      firstFrame: 0
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Kicking
+      takeName: rig_pipo|pipo_Kicking
+      internalID: -5333112573395478329
+      firstFrame: 0
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Kicking.001
+      takeName: rig_pipo|pipo_Kicking.001
+      internalID: -7253582509024709506
+      firstFrame: 0
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Standing
+      takeName: rig_pipo|pipo_Standing
+      internalID: -4880594691756863022
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Standing.001
+      takeName: rig_pipo|pipo_Standing.001
+      internalID: -1698320713529196459
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Standing.002
+      takeName: rig_pipo|pipo_Standing.002
+      internalID: -7083152900209109946
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|pipo_Walk
+      takeName: rig_pipo|pipo_Walk
+      internalID: -8391670422470917704
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|PoseLib
+      takeName: rig_pipo|PoseLib
+      internalID: -3704282878392273788
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|prop_box_woodAction
+      takeName: rig_pipo|prop_box_woodAction
+      internalID: -4965720707234713963
+      firstFrame: 0
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_pipo|rig_pipoAction
+      takeName: rig_pipo|rig_pipoAction
+      internalID: 7442150403815393040
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: rig_pipo_hips_upper_body
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_leg_top_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_leg_top_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_leg_bottom_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_leg_bottom_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_belly_bottom
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_belly_top
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_arm_top_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_arm_top_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_arm_bottom_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_arm_bottom_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rig_pipo_chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PIPO_MASK(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rig_pipo
+      parentName: PIPO_MASK(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70710677, y: -0.00000016858739, z: -0.00000010677015, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: rig_pipo_root
+      parentName: rig_pipo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000022481295, y: -0.000000029802301, z: 1, w: 7.1054274e-15}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: rig_pipo_hips_upper_body
+      parentName: rig_pipo_root
+      position: {x: 3.9964226e-10, y: 0.00013164937, z: 0.008418649}
+      rotation: {x: 0.7071068, y: -0.000000014959076, z: -0.000000046858972, w: 0.70710677}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: rig_pipo_belly_bottom
+      parentName: rig_pipo_hips_upper_body
+      position: {x: 3.6249337e-12, y: 0.0013808076, z: 4.9404887e-13}
+      rotation: {x: -0.026012868, y: -3.966605e-12, z: 0.0000000023656286, w: 0.9996617}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: rig_pipo_belly_top
+      parentName: rig_pipo_belly_bottom
+      position: {x: 7.381789e-12, y: 0.0017402864, z: 9.1684736e-11}
+      rotation: {x: 0.07205823, y: 9.4723005e-12, z: -0.0000000063674843, w: 0.99740046}
+      scale: {x: 1.0000004, y: 0.99999976, z: 1.0000002}
+    - name: rig_pipo_chest
+      parentName: rig_pipo_belly_top
+      position: {x: 2.650352e-13, y: 0.0014297384, z: 4.5717454e-11}
+      rotation: {x: 0.047852546, y: 1.0412437e-11, z: -0.000000004408001, w: 0.99885446}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: rig_pipo_neck
+      parentName: rig_pipo_chest
+      position: {x: 3.007523e-12, y: 0.0015412776, z: 3.8097595e-10}
+      rotation: {x: -0.0938375, y: 0.000000118663294, z: -0.000000002653442, w: 0.9955876}
+      scale: {x: 1.0000008, y: 0.9999998, z: 1.0000005}
+    - name: rig_pipo_head
+      parentName: rig_pipo_neck
+      position: {x: 5.1081405e-12, y: 0.0004618163, z: 5.4928627e-12}
+      rotation: {x: -0.005754708, y: -0.0000001191921, z: -4.991791e-10, w: 0.99998343}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: rig_pipo_arm_top_L
+      parentName: rig_pipo_chest
+      position: {x: 0.00087584025, y: 0.0009502961, z: 0.000017641893}
+      rotation: {x: -0.041220773, y: -0.089415774, z: -0.68773085, w: 0.7192579}
+      scale: {x: 1.0000011, y: 0.99999976, z: 1.0000004}
+    - name: rig_pipo_arm_bottom_L
+      parentName: rig_pipo_arm_top_L
+      position: {x: -5.9604643e-10, y: 0.003304696, z: -1.862645e-10}
+      rotation: {x: 0.075897895, y: 0.0003863609, z: 0.023927402, w: -0.99682844}
+      scale: {x: 0.99999994, y: 1.0000013, z: 1.0000002}
+    - name: rig_pipo_hand_L
+      parentName: rig_pipo_arm_bottom_L
+      position: {x: 7.4505804e-11, y: 0.003241215, z: 2.6077032e-10}
+      rotation: {x: -0.036332708, y: 0.711522, z: 0.036698096, w: -0.70076376}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999976}
+    - name: rig_pipo_thum_L
+      parentName: rig_pipo_hand_L
+      position: {x: -0.00022582512, y: 0.00037383012, z: -0.00001001209}
+      rotation: {x: 0.26705423, y: -0.27520832, z: -0.1621584, w: -0.90920144}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
+    - name: rig_pipo_fingers_L
+      parentName: rig_pipo_hand_L
+      position: {x: -3.5157427e-10, y: 0.0007506097, z: -1.4901161e-10}
+      rotation: {x: -0.04320012, y: -0.005242584, z: 0.012720293, w: 0.99897176}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: rig_pipo_arm_top_R
+      parentName: rig_pipo_chest
+      position: {x: -0.0008758403, y: 0.00095029734, z: 0.00001764186}
+      rotation: {x: -0.04122065, y: 0.08941607, z: 0.68773097, w: 0.7192579}
+      scale: {x: 1.0000013, y: 1.0000005, z: 0.9999998}
+    - name: rig_pipo_arm_bottom_R
+      parentName: rig_pipo_arm_top_R
+      position: {x: 0.0000000024586915, y: 0.0033046966, z: 1.862645e-10}
+      rotation: {x: -0.0758978, y: 0.0003863757, z: 0.023927614, w: 0.9968284}
+      scale: {x: 1.0000002, y: 0.9999995, z: 1.0000002}
+    - name: rig_pipo_hand_R
+      parentName: rig_pipo_arm_bottom_R
+      position: {x: 2.7939676e-10, y: 0.0032412156, z: -2.9802322e-10}
+      rotation: {x: -0.03633203, y: -0.71152186, z: -0.036698677, w: -0.7007638}
+      scale: {x: 0.9999996, y: 0.99999976, z: 0.99999994}
+    - name: rig_pipo_thum_R
+      parentName: rig_pipo_hand_R
+      position: {x: 0.00022582427, y: 0.0003738307, z: -0.000010012239}
+      rotation: {x: 0.2670532, y: 0.27520815, z: 0.16215855, w: -0.9092017}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: rig_pipo_fingers_R
+      parentName: rig_pipo_hand_R
+      position: {x: 6.3329936e-10, y: 0.0007506101, z: -2.9802322e-10}
+      rotation: {x: 0.04319972, y: -0.0052426145, z: 0.012720256, w: -0.9989717}
+      scale: {x: 1, y: 0.99999976, z: 0.99999964}
+    - name: rig_pipo_hips.001
+      parentName: rig_pipo_hips_upper_body
+      position: {x: 3.6249337e-12, y: 0.0013808076, z: 4.9404887e-13}
+      rotation: {x: 0.000000043700602, y: 1.9360984e-16, z: 1, w: -0.0000000042643435}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: rig_pipo_leg_top_L
+      parentName: rig_pipo_hips.001
+      position: {x: -0.0006823316, y: 0.0012857392, z: 0.00013164946}
+      rotation: {x: 0.0029200907, y: -0.021113396, z: -0.004123976, w: 0.9997643}
+      scale: {x: 0.99999964, y: 1, z: 1.0000005}
+    - name: rig_pipo_leg_bottom_L
+      parentName: rig_pipo_leg_top_L
+      position: {x: -2.7939677e-11, y: 0.0040185647, z: -2.3283063e-11}
+      rotation: {x: 0.023337346, y: 0.041100696, z: 0.007966249, w: 0.99885076}
+      scale: {x: 1.0000001, y: 1.0000006, z: 0.9000002}
+    - name: rig_pipo_foot_L
+      parentName: rig_pipo_leg_bottom_L
+      position: {x: 8.614734e-11, y: 0.004148872, z: -5.5879353e-11}
+      rotation: {x: 0.01721113, y: 0.6881548, z: -0.7252778, w: 0.010906797}
+      scale: {x: 0.9764669, y: 1.0462208, z: 0.9822867}
+    - name: rig_pipo_leg_top_R
+      parentName: rig_pipo_hips.001
+      position: {x: 0.00068233145, y: 0.0012857397, z: 0.00013164946}
+      rotation: {x: 0.0029200022, y: 0.021113368, z: 0.0041239667, w: 0.9997644}
+      scale: {x: 0.99999934, y: 0.9999999, z: 1.0000005}
+    - name: rig_pipo_leg_bottom_R
+      parentName: rig_pipo_leg_top_R
+      position: {x: -1.3969838e-11, y: 0.004018564, z: 8.381903e-11}
+      rotation: {x: 0.023337435, y: -0.04110069, z: -0.007966253, w: 0.9988507}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: rig_pipo_foot_R
+      parentName: rig_pipo_leg_bottom_R
+      position: {x: -1.0244548e-10, y: 0.004148873, z: -1.8626451e-11}
+      rotation: {x: -0.01721115, y: 0.6881548, z: -0.7252778, w: -0.010906811}
+      scale: {x: 1.0000002, y: 0.9999995, z: 0.9999997}
+    - name: char_pipo
+      parentName: PIPO_MASK(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70710677, y: -0.00000016858739, z: -0.00000010677015, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
