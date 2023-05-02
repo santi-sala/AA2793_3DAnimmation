@@ -86,13 +86,5 @@ public class RosalesController : MonoBehaviour
             _animator.SetFloat(TURNINGSPEED, _turningSpeed);
         }
         
-        
-        
-
-        
-        
-        
-        
-        //transform.Rotate(0, direction.x * _turningSpeed * Time.deltaTime, 0);
     }
 }
